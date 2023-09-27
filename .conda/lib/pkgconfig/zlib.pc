@@ -1,0 +1,13 @@
+prefix=/Users/leochen/Desktop/QTM 151/qtm151_fall_2023/.conda
+exec_prefix=/Users/leochen/Desktop/QTM 151/qtm151_fall_2023/.conda
+libdir=/Users/leochen/Desktop/QTM 151/qtm151_fall_2023/.conda/lib
+sharedlibdir=/Users/leochen/Desktop/QTM 151/qtm151_fall_2023/.conda/lib
+includedir=/Users/leochen/Desktop/QTM 151/qtm151_fall_2023/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
