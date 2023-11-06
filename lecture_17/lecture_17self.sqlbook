@@ -189,8 +189,7 @@ Merge Databases
 -- The format is
 -----  ON table1.key = table2.key
 
-SELECT * 
-FROM bills.bills_actions
+SELECT * FROM bills.bills_actions
 LEFT JOIN members.us_congress_members
 ON us_congress_members.member_id  = bills_actions.member_id;
 -- SQLBook: Markup
